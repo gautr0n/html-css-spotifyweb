@@ -1,0 +1,17 @@
+/*generics*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*utilities*/
+:root{
+    --red: red;
+}
+
+.margin-bt{
+    margin-bottom: 20px;
+}
