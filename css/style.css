@@ -136,6 +136,10 @@
 
 /*main*/
 
+#main h2{
+    padding: 20px;
+}
+
 #main{
     width: 100%;
     padding-top: 100px;
@@ -157,6 +161,30 @@
 
 .nav-bar li{
     padding: 10px;
+}
+
+.card-box{
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: baseline;
+}
+
+.card{
+    max-width: 50%;
+    padding: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.subtitle{
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+.popular img{
+    border-radius: 50%;
 }
 
 /*footer*/
