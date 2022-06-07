@@ -6,6 +6,7 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    list-style-type: none;
 }
 
 /*utilities*/
@@ -134,9 +135,22 @@
     display: none;
 }
 
+.none-playlist{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+    padding: 10px 0;
+}
+
+.none-playlist *{
+    padding: 5px 5px 5px 0;
+}
 
 /*footer*/
 #footer{
+    position: relative;
     background-color: var(--footer);
     height: 100px;
     width: 100vw;
