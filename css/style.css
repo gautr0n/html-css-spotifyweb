@@ -144,6 +144,7 @@
     width: 100%;
     padding-top: 100px;
     overflow-y: auto;
+    overflow-x: hidden;
     height: calc(100vh - 100px);
 }
 
@@ -193,4 +194,30 @@
     background-color: var(--footer);
     height: 100px;
     width: 100vw;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-box{
+    width: 90%;
+    height: 80%;
+}
+
+.footer-center{
+    align-items: center;
+}
+
+.footer-son>*{
+    padding: 0px 10px;
+}
+
+.footer-img{
+    height: auto;
+}
+
+.volume-line{
+    background-color: #5A5A5A;
+    width: 80px;
+    height: 3px;
 }
