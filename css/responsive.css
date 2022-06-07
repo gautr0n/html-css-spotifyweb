@@ -9,7 +9,7 @@
     }
 
     #main{
-    width: calc(100vh - 220px);
+    width: 100%;
     }
 
     .sidebar-line{
